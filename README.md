@@ -10,6 +10,4 @@ The assignment for the project on TOP can be found [here](https://www.theodinpro
 
 ### Github Pages
 
-<!-- You can view the page [here](https://ykuklevskiy.github.io/odin-etch-a-sketch/). -->
-
-TBA
+You can view the page [here](https://ykuklevskiy.github.io/odin-signup-form/).
