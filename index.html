@@ -9,9 +9,9 @@
   <body>
     <div id="background">
       <div>
-      <div id="logo-container">
+        <div id="logo-container">
           <img src="/images/odin-lined.png" alt="" />
-        <span>ODIN</span>
+          <span>ODIN</span>
         </div>
       </div>
       <div id="background-footer">
@@ -32,7 +32,33 @@
         </p>
         <p>You <em>know</em> you want to.</p>
       </div>
-      <form action="#" method="get"></form>
+      <form action="#" method="get">
+        <legend>Let's do this!</legend>
+        <fieldset>
+          <label for="first_name">First Name</label>
+          <input type="text" name="first_name" />
+        </fieldset>
+        <fieldset>
+          <label for="last_name">Last Name</label>
+          <input type="text" name="last_name" />
+        </fieldset>
+        <fieldset>
+          <label for="email">Email</label>
+          <input type="email" name="email" />
+        </fieldset>
+        <fieldset>
+          <label for="phone">Phone number</label>
+          <input type="tel" name="phone" />
+        </fieldset>
+        <fieldset>
+          <label for="password" min>Password</label>
+          <input type="password" name="password" />
+        </fieldset>
+        <fieldset>
+          <label for="password_confirm">Confirm password</label>
+          <input type="password" name="password_confirm" />
+        </fieldset>
+      </form>
       <div id="form-footer">
         <button>Create Account</button>
         <div><span>Already have an account? </span><a href="#">Log in</a></div>
