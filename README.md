@@ -2,7 +2,7 @@
 
 ## The project
 
-TBA
+A simple sign-up form. Made as practice after an intermediate html+css part of the TOP course.
 
 ### The Odin Project
 
