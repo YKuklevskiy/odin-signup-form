@@ -83,6 +83,10 @@ body {
   flex: 3;
 }
 
+#form-header {
+  margin: 0em 2em;
+}
+
 .bottom-sep {
   margin-bottom: 1em;
 }
@@ -137,6 +141,10 @@ input:focus {
 }
 
 /* submit-section */
+#form-footer {
+  margin: 0.5em 2em;
+}
+
 #form-footer button {
   background-color: var(--theme-color);
   color: var(--white);
