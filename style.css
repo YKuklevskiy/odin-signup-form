@@ -139,6 +139,8 @@ fieldset > div {
 
 label {
   text-transform: uppercase;
+  font-size: 0.75em;
+  font-weight: bold;
 }
 
 input {
@@ -169,6 +171,7 @@ input:focus {
   box-shadow: var(--side-shadow);
   padding: 1em 3em;
   border-radius: 0.5em;
+  font-weight: bold;
 }
 
 #form-footer button:active {
@@ -177,6 +180,6 @@ input:focus {
 
 #form-footer a {
   color: var(--theme-color);
-  font-weight: 900;
+  font-weight: bold;
   text-decoration: none;
 }
