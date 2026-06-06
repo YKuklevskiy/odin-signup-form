@@ -78,6 +78,10 @@ body {
   margin-bottom: 1em;
 }
 
+.bold {
+  font-weight: 600;
+}
+
 form {
   padding: 1em;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
