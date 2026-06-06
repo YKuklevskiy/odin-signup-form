@@ -25,7 +25,10 @@
   --side-shadow: 3px 2px 4px var(--grey);
 }
 
-html,
+html {
+  height: 100%;
+}
+
 body {
   height: 100%;
   display: flex;
@@ -107,6 +110,7 @@ body {
 
 #form-header {
   margin: 0em 2em;
+  max-width: 28em;
 }
 
 .bottom-sep {
