@@ -73,3 +73,13 @@ body {
   justify-content: center;
   flex: 3;
 }
+
+.bottom-sep {
+  margin-bottom: 1em;
+}
+
+form {
+  padding: 1em;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  margin: 1em 0px;
+}
