@@ -6,7 +6,11 @@
 
 :root {
   --dark-bg: rgba(0, 0, 0, 0.55);
+  --grey: rgba(113, 115, 119, 0.25);
   --light-text: #ffffff;
+
+  --accent-color: blue;
+  --error-color: red;
 }
 
 html,
@@ -82,8 +86,46 @@ body {
   font-weight: 600;
 }
 
+/* form */
 form {
-  padding: 1em;
+  padding: 1em 2em;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
   margin: 1em 0px;
+}
+
+legend {
+  font-weight: 900;
+}
+
+fieldset {
+  padding: 0;
+  border: none;
+  display: flex;
+  gap: 3rem;
+}
+
+fieldset > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1em;
+}
+
+label {
+  text-transform: uppercase;
+}
+
+input {
+  border: 1px solid var(--grey);
+  padding: 0.4em;
+  border-radius: 0.2em;
+  outline: none;
+}
+
+input:user-invalid {
+  border-color: var(--error-color);
+}
+
+input:focus {
+  border-color: var(--accent-color);
+  box-shadow: 3px 1px 3px var(--grey);
 }
