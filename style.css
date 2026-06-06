@@ -56,6 +56,10 @@ body {
   justify-content: center;
 }
 
+#background-footer a {
+  color: var(--white);
+}
+
 #background > div:first-child {
   flex: 1;
   display: flex;
@@ -165,4 +169,5 @@ input:focus {
 #form-footer a {
   color: var(--theme-color);
   font-weight: 900;
+  text-decoration: none;
 }
