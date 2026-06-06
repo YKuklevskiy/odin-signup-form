@@ -36,30 +36,36 @@
         <p class="bottom-sep">You <em>know</em> you want to.</p>
       </div>
       <form action="#" method="get">
-        <legend>Let's do this!</legend>
-        <fieldset>
-          <label for="first_name">First Name</label>
-          <input type="text" name="first_name" />
+        <legend class="bottom-sep">Let's do this!</legend>
+        <fieldset class="bottom-sep">
+          <div>
+            <label for="first_name">First Name</label>
+            <input type="text" name="first_name" />
+          </div>
+          <div>
+            <label for="last_name">Last Name</label>
+            <input type="text" name="last_name" />
+          </div>
         </fieldset>
-        <fieldset>
-          <label for="last_name">Last Name</label>
-          <input type="text" name="last_name" />
+        <fieldset class="bottom-sep">
+          <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" />
+          </div>
+          <div>
+            <label for="phone">Phone number</label>
+            <input type="tel" name="phone" />
+          </div>
         </fieldset>
-        <fieldset>
-          <label for="email">Email</label>
-          <input type="email" name="email" />
-        </fieldset>
-        <fieldset>
-          <label for="phone">Phone number</label>
-          <input type="tel" name="phone" />
-        </fieldset>
-        <fieldset>
-          <label for="password" min>Password</label>
-          <input type="password" name="password" />
-        </fieldset>
-        <fieldset>
-          <label for="password_confirm">Confirm password</label>
-          <input type="password_confirm" name="password_confirm" />
+        <fieldset class="bottom-sep">
+          <div>
+            <label for="password" min>Password</label>
+            <input type="password" name="password" />
+          </div>
+          <div>
+            <label for="password_confirm">Confirm password</label>
+            <input type="password_confirm" name="password_confirm" />
+          </div>
         </fieldset>
       </form>
       <div id="form-footer">
