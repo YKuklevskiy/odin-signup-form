@@ -23,6 +23,10 @@ body {
   display: flex;
 }
 
+:focus {
+  outline-color: var(--accent-color);
+}
+
 /* background */
 #background {
   background: url("/images/background.jpg") left / cover no-repeat fixed;
@@ -150,6 +154,12 @@ input:focus {
   color: var(--white);
   border: none;
   box-shadow: var(--side-shadow);
+  padding: 1em 3em;
+  border-radius: 0.5em;
+}
+
+#form-footer button:active {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.35) inset;
 }
 
 #form-footer a {
