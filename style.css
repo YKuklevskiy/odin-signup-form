@@ -22,7 +22,7 @@
   --error-color: rgb(185, 0, 0);
   --theme-color: #596d48;
 
-  --side-shadow: 3px 2px 4px var(--grey);
+  --side-shadow: 3px 2px 4px #c5c7ce;
 }
 
 html {
