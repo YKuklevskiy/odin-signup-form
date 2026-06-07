@@ -137,13 +137,19 @@ legend {
 }
 
 fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+div.field-row {
   padding: 0;
   border: none;
   display: flex;
   gap: 3rem;
 }
 
-fieldset > div {
+div.field-row > div {
   display: flex;
   flex-direction: column;
   gap: 0.1em;
